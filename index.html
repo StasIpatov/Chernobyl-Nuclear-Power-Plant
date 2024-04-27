@@ -55,6 +55,7 @@
                 font-size: 20px;
                 font-family: MONOSPACE;
                 text-decoration: none;
+                padding: 5px;
             }
            
             section {
@@ -74,13 +75,40 @@
       table{
         font-family: MONOSPACE;
       }
+
+      .logo{
+        width: 60px;
+      }
+
+      .flex{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        width: 100vw;
+        text-align: right;
+      }
+
+      header{
+        margin-top: 80px;
+      }
+
         </style>
         <header>
             <h1>Чорнобильська атомна електростанція</h1>
-            <a href="#bnx" class="csx">Основна частина</a>
-            <a href="#2" class="csx">Місцезнаходження</a>
-            <a href="#3" class="csx">Енергоблоки</a>
-            <a href="#4" class="csx">Ліквідатори наслідків аварії на ЧАЕС</a>
+            <div class="flex">
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/uk/thumb/b/bf/SpringfieldNuclearPowerStation.gif/330px-SpringfieldNuclearPowerStation.gif" alt="">
+            </div>
+            <div class="links">
+
+                <a href="#bnx" class="csx">Основна частина</a>
+                <a href="#2" class="csx">Місцезнаходження</a>
+                <a href="#3" class="csx">Енергоблоки</a>
+                <a href="#4" class="csx">Ліквідатори наслідків аварії на ЧАЕС</a>
+            </div>
         </header>
         <main>
             <section id="bnx">
